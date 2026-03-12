@@ -1,0 +1,159 @@
+.cabecalho{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 12vh;
+
+
+}
+*{
+    margin: 0;
+}
+
+.itens{
+    display: flex;
+gap: 15px;
+
+}
+
+
+.botao{
+    background-color: #895917;
+    color: white;
+border-radius: 10px;
+outline: none;
+padding: 10px 20px;
+border: none;
+
+}
+
+
+.logo{
+    width: 200px;
+
+}
+.image img{
+    width: 100vw;
+    height: 88vh;
+object-fit: cover;
+opacity: 40%;
+z-index: 2;
+}
+.image{
+    background-color: black;
+    z-index: 1;
+}
+.descricao{
+    width: 100vw;
+    height: 88vh;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    flex-direction: column;
+    
+
+}
+.hero{
+    width: 100vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("assets/capa.jpg");
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+}
+.hero h1{
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+
+}
+.hero p{
+    color: white;
+}
+*{
+    margin: o;
+
+}
+.pesquisa{
+    padding: 1vh 5vw 1vh 1vw;
+    border: none;
+    outline: #895917;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 400px;
+}
+.input_container{
+    padding: 2vw;
+    border-radius: 20px;
+    background-color: rgb(213, 213, 213, 0.100);
+}
+.livros{
+    height: 100vh;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8F7F5;
+}
+.card{
+    width: 206px;
+    border-radius: 15px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4vh solid white;
+    background-color: white;
+    
+    
+
+    
+}
+.new{
+    border:50px solid color(srgb 255 255 255);
+    display: flex;
+    justify-content: space-between;
+
+}
+.new p{
+    color: #895917;
+    font-size: small;
+    border: 2vh solid #F8F7F5;
+    border-radius: 2vh;
+    height: 2vh;    
+}
+* {
+    font-family: Arial, sans-serif;
+}
+.card img{
+  height: 70%;
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: auto;
+
+}
+.card button{
+    background-color: #e4dbcb;
+    border: 0;
+    border-radius: 1vh;
+    height: 5vh;
+    color: #6c450f;
+    width: 25vh;
+}
+.card h3 {
+    margin-bottom: auto;
+}
+.card p{
+    margin-bottom: auto;
+    font-size: small;
+
+}
