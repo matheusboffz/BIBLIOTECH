@@ -59,7 +59,7 @@ z-index: 2;
 
 }
 .hero{
-    width: 100vw;
+    width: 100;
     height: 98vh;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@ z-index: 2;
     background-color: rgb(213, 213, 213, 0.100);
 }
 .livros{
-    height: 100vh;
+    height: 85vh;
     padding: 2vw;
     display: flex;
     justify-content: space-around;
@@ -158,16 +158,38 @@ z-index: 2;
 
 }
 .calendario{
-    background-color: #F7EDEB;
-    border: 70px solid #F7EDEB;
     display: flex;
+    margin: 6vh;
+    background-color: #F7EDEB;
     justify-content: space-between;
-    border-top: 80px solid #F7EDEB;
-    borer-bottom: 20px solid #F7EDEB;
-    font-size: 1.9vh;
+    margin: 0%;
+    border: 20px solid #F7EDEB;
+    border-top: 20px solid #F7EDEB;
+    border-left: 10vh solid #F7EDEB;
+    border-right: 14vh solid #F7EDEB;
+    border-bottom: 0gap;
+    
+    
+    
+    
+
 }
+.calendario button{
+    border: none;
+    background-color: white;
+    width: 35vh;
+    height: 4.5vh;
+    border-radius: 1vh;
+    
+
+
+}
+.calendario p{
+    color: #BE590F;
+}
+
 .cartas{
-    height: 30hv;
+    height: 30vh;
     width: 50vh;
     background-color: white;
     border-radius: 15px;
@@ -189,5 +211,51 @@ z-index: 2;
     align-items: center;
     justify-content: center;
 }
+.cartas button{
+    margin-top: auto;
+    color: #BE590F;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    width: 2vh;
+}
+.calendariu{
+    background-color: #F7EDEB;
+    border: 70px solid #F7EDEB;
+    display: flex;
+    justify-content: space-between;
+    border-top: 55px solid #F7EDEB;
+    border-bottom:20px #F7EDEB;
+    font-size: 1.9vh;
+    height: 300px;
+    
+    
+}
+.Painel{
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    justify-content: center;
+    border-top: 15vh solid #F8F7F5;
+    background-color: #F8F7F5
+
+    
+}
+.Ajuda{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    width: 100vh;
+    text-align: center ;
+}
+.Ajuda p{
+    
+    color: #A8A8A8;
+
+}
+
 
 
